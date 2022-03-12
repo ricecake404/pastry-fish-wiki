@@ -2,7 +2,7 @@
 title: Markdown 样例
 description: 
 published: true
-date: 2022-03-12T17:03:11.652Z
+date: 2022-03-12T17:08:15.723Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-12T04:41:57.611Z
@@ -26,14 +26,22 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯。它允�
 
 ### Tab {.tabset}
 
-#### 功能
+#### 基本语法
 
-表格以及一些高级表格功能
+```
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+```
 
-- [MutltiMarkdownTable库 *markdown-it-multimd-table*](https://github.com/redbug312/markdown-it-multimd-table)
-{.links-list}
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 #### 合并列
+
 ```
 |             |          Grouping           ||
 First Header  | Second Header | Third Header |
@@ -127,6 +135,13 @@ Citric acid cycle | 2 ATP ||
 |  |  |  |  |  |♘|  |  |
 |♙|♙|♙|♙|  |♙|♙|♙|
 |♖|♘|♗|♕|♔|  |  |♖|
+
+#### 参考
+
+表格以及一些高级表格功能
+
+- [MutltiMarkdownTable库 *markdown-it-multimd-table*](https://github.com/redbug312/markdown-it-multimd-table)
+{.links-list}
 
 ## 块引用
 
