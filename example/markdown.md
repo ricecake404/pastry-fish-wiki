@@ -2,31 +2,38 @@
 title: Markdown 样例
 description: 
 published: true
-date: 2022-03-12T16:13:29.251Z
+date: 2022-03-12T17:03:11.652Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-12T04:41:57.611Z
 ---
 
-# Overview
+# 概述
 
-Markdown is a lightweight markup language with plain text formatting syntax. It's the de-facto syntax for writing documentation on major code repositories such as GitHub.
+Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，目前许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。
 
-Wiki.js supports the full [CommonMark specification](https://spec.commonmark.org/) + adds some useful extensions (including the Github Flavored Markdown addons).
+鱼糕Wiki（wiki.js）支持 [CommonMark 规范](https://spec.commonmark.org/)中的所有语法并增加了一些常用的Markdown插件。
 
-# User Guide
+# 语法参考
 
-## MutltiMarkdown Table
+- [Markdown 基础语法](https://markdown.com.cn/basic-syntax)
+- [鱼糕Wiki使用的Markdown库 *markdown-it*](https://github.com/markdown-it/markdown-it)
+{.links-list}
+
+# 使用指南
+
+## 表格
 
 ### Tab {.tabset}
 
-#### Usage
+#### 功能
 
-表格强化
+表格以及一些高级表格功能
 
-> https://github.com/redbug312/markdown-it-multimd-table
+- [MutltiMarkdownTable库 *markdown-it-multimd-table*](https://github.com/redbug312/markdown-it-multimd-table)
+{.links-list}
 
-#### Examples
+#### 合并列
 ```
 |             |          Grouping           ||
 First Header  | Second Header | Third Header |
@@ -47,6 +54,8 @@ Content       |   **Cell**    |         Cell |
 New section   |     More      |         Data |
 And more      | With an escaped '\|'         || 
 
+#### 多行
+
 ```
 |   Markdown   | Rendered HTML |
 |--------------|---------------|
@@ -68,6 +77,8 @@ And more      | With an escaped '\|'         ||
 |    ```python | ```python       \
 |    .1 + .2   | .1 + .2         \
 |    ```       | ```           |
+
+#### 合并行
 
 ```
 Stage | Direct Products | ATP Yields
@@ -93,6 +104,8 @@ Citric acid cycle | 2 ATP ||
 **30--32** ATP |||
 [Net ATP yields per hexose]
 
+#### 隐藏表头
+
 ```
 |--|--|--|--|--|--|--|--|
 |♜|  |♝|♛|♚|♝|♞|♜|
@@ -115,18 +128,11 @@ Citric acid cycle | 2 ATP ||
 |♙|♙|♙|♙|  |♙|♙|♙|
 |♖|♘|♗|♕|♔|  |  |♖|
 
-## Blockquotes
+## 块引用
 
 ### Tab {.tabset}
 
-#### Usage
-
-Using a **greater-than** symbol, followed by a space, before each line of text.
-
-#### Shortcuts
-- By selecting text, then clicking the ![Blockquote](/assets/ui/ui-markdown-blockquotes.png =x30){.radius-4} button in the toolbar.
-
-#### Examples
+#### 基本例子
 
 ```js
 > Lorem ipsum dolor sit amet
@@ -136,7 +142,7 @@ Using a **greater-than** symbol, followed by a space, before each line of text.
 > Lorem ipsum dolor sit amet
 > Consectetur adipiscing elit
 
-#### Stylings
+#### 不同格式
 
 By adding a class on a separate line, after the blockquote, you can change the look of the blockquote. Note that these stylings are specific to Wiki.js and will fallback to standard blockquote styling in other applications.
 
