@@ -2,7 +2,7 @@
 title: 游戏图标资源使用
 description: 
 published: true
-date: 2022-03-13T04:31:27.629Z
+date: 2022-03-13T04:46:59.047Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-13T04:31:27.629Z
@@ -18,13 +18,15 @@ dateCreated: 2022-03-13T04:31:27.629Z
 ```
 显示图标 ![038222](https://rcstatic.traveleorzea.com/pastry-fish-static-files/img/item/038222.webp =40x40)
 
-> 注意：
-图标ID包括前置`0`：`000001`、`038222`
+**注意：**
+> 图标ID包括前置`0`：`000001`、`038222`
+{.is-info}
 
-> `_hr1`表示高清图标（80x80）![038222](https://rcstatic.traveleorzea.com/pastry-fish-static-files/img/item/038222.webp =40x40)，不带`_hr1`则为普通图标（40x40）![038222](https://rcstatic.traveleorzea.com/pastry-fish-static-files/img/item/038222.webp =40x40)
+> `038222_hr1` 表示高清图标（80x80）![038222](https://rcstatic.traveleorzea.com/pastry-fish-static-files/img/item/038222.webp =40x40)，`038222` 则为普通图标（40x40）![038222](https://rcstatic.traveleorzea.com/pastry-fish-static-files/img/item/038222.webp =40x40)
+{.is-info}
 
 > 目前只上传了部分图标，绝大多数是高清图标。内容范围是鱼糕本站使用的所有图标。如有支持其他游戏内图标的需要，请联系管理员。
-
+{.is-warning}
 
 ## 图标ID速查
 
