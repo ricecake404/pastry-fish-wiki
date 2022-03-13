@@ -2,7 +2,7 @@
 title: Markdown 样例
 description: 
 published: true
-date: 2022-03-13T02:47:09.645Z
+date: 2022-03-13T03:31:29.399Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-12T04:41:57.611Z
@@ -142,6 +142,51 @@ Citric acid cycle | 2 ATP ||
 
 - [MutltiMarkdownTable库 *markdown-it-multimd-table*](https://github.com/redbug312/markdown-it-multimd-table)
 {.links-list}
+
+## 图片
+
+### Tab {.tabset}
+
+#### 基本语法
+
+```markdown
+插入站内上传的鱼糕 ![鱼糕](/site/pastry-fish.png) 图片
+
+插入站外图片 ![鱼竿](https://rcstatic.traveleorzea.com/pastry-fish-static-files/img/item/038222_hr1.webp)
+```
+
+插入站内上传的鱼糕 ![鱼糕](/site/pastry-fish.png) 图片
+
+插入站外图片 ![鱼竿](https://rcstatic.traveleorzea.com/pastry-fish-static-files/img/item/038222_hr1.webp)
+
+> 上面的站外图片引用了鱼糕本站使用的游戏图标，如有支持其他游戏内图标的需要，请联系管理员。
+鱼糕本站使用了体积更小的webp图标，请避免自己上传游戏内图片，以节省网站流量，同时也可避免重复上传相同图片。
+{.is-info}
+
+#### 指定长宽
+
+```
+![鱼糕](/site/pastry-fish-home-logo.webp =100x60)
+```
+
+![鱼糕](/site/pastry-fish-home-logo.webp =100x60)
+
+#### 保持长宽比
+
+```
+![鱼糕](/site/pastry-fish-home-logo.webp =100x)
+![鱼糕](/site/pastry-fish-home-logo.webp =x60)
+```
+
+![鱼糕](/site/pastry-fish-home-logo.webp =100x) 
+![鱼糕](/site/pastry-fish-home-logo.webp =x60)
+
+#### 以百分比指定长宽
+
+```
+![鱼糕](/site/pastry-fish-home-logo.webp =100%x)
+```
+![鱼糕](/site/pastry-fish-home-logo.webp =100%x)
 
 ## 块引用
 
@@ -362,48 +407,6 @@ Lorem ipsum dolor
 ---
 
 Consectetur adipiscing elit
-
-## Images
-
-### Tab {.tabset}
-
-#### Usage
-
-Using the syntax `![Image Caption](Image Source)`.
-
-#### Shortcuts
-- Using the **Assets** tool in the left toolbar.
-
-#### Examples
-
-```markdown
-![Lorem ipsum](https://dolor.example.com/sit/amet.jpg)
-
-Consectetur ![adipiscing](/link/to/image.jpg) elit
-```
-
-#### Dimensions
-
-Sometimes images are too large or maybe you want the image to fill up all the available space.
-
-Simply at the dimensions at the end of the image path in the following format:
-
-```
-![Image](/link/to/image.jpg =100x50)
-```
-
-You can also omit one of the values to automatically keep the image ratio:
-
-```
-![Image](/link/to/image.jpg =100x)
-![Image](/link/to/image.jpg =x50)
-```
-
-It's also possible to use other units, like %. Useful when you need the image to take all the available space:
-
-```
-![Image](/link/to/image.jpg =100%x)
-```
 
 ## Inline Code
 
