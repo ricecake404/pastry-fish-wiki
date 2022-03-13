@@ -2,7 +2,7 @@
 title: Markdown 样例
 description: 
 published: true
-date: 2022-03-13T02:38:35.747Z
+date: 2022-03-13T02:47:09.645Z
 tags: 
 editor: markdown
 dateCreated: 2022-03-12T04:41:57.611Z
@@ -39,7 +39,6 @@ Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯。它允�
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
-{.table-test-class}
 
 #### 合并列
 
