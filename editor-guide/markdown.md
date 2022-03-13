@@ -2,7 +2,7 @@
 title: Markdown 样例
 description: 
 published: true
-date: 2022-03-13T03:33:08.844Z
+date: 2022-03-13T04:32:34.975Z
 tags: 编辑指南
 editor: markdown
 dateCreated: 2022-03-12T04:41:57.611Z
@@ -161,6 +161,7 @@ Citric acid cycle | 2 ATP ||
 
 > 上面的站外图片引用了鱼糕本站使用的游戏图标，如有支持其他游戏内图标的需要，请联系管理员。
 鱼糕本站使用了体积更小的webp图标，请避免自己上传游戏内图片，以节省网站流量，同时也可避免重复上传相同图片。
+如何查找图标网址以及使用游戏图标请查看[游戏图标资源使用](/editor-guide/game-icons)中的说明。
 {.is-info}
 
 #### 指定长宽
@@ -192,7 +193,7 @@ Citric acid cycle | 2 ATP ||
 
 ### Tab {.tabset}
 
-#### 基本例子
+#### 基本语法
 
 ```js
 > Lorem ipsum dolor sit amet
