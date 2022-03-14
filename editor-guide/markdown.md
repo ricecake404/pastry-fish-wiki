@@ -2,7 +2,7 @@
 title: Markdown 样例
 description: 
 published: true
-date: 2022-03-13T04:32:34.975Z
+date: 2022-03-14T10:21:03.749Z
 tags: 编辑指南
 editor: markdown
 dateCreated: 2022-03-12T04:41:57.611Z
@@ -12,7 +12,7 @@ dateCreated: 2022-03-12T04:41:57.611Z
 
 Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯。它允许人们使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档。由于Markdown的轻量化、易读易写特性，并且对于图片，图表、数学式都有支持，目前许多网站都广泛使用Markdown来撰写帮助文档或是用于论坛上发表消息。
 
-鱼糕Wiki（wiki.js）支持 [CommonMark 规范](https://spec.commonmark.org/)中的所有语法并增加了一些常用的Markdown插件。
+鱼糕档案馆（wiki.js）支持 [CommonMark 规范](https://spec.commonmark.org/)中的所有语法并增加了一些常用的Markdown插件。
 
 # 语法参考
 
