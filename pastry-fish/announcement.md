@@ -1,8 +1,8 @@
 ---
-title: 公告
+title: 通知
 description: 鱼糕更新相关
 published: true
-date: 2022-03-14T09:52:44.911Z
+date: 2022-03-14T10:57:06.703Z
 tags: pastry-fish-announcement
 editor: markdown
 dateCreated: 2022-03-13T13:01:58.044Z
