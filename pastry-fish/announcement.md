@@ -2,13 +2,14 @@
 title: 通知
 description: 鱼糕更新相关
 published: true
-date: 2022-03-16T06:24:34.373Z
+date: 2022-03-16T06:32:20.858Z
 tags: pastry-fish-announcement
 editor: markdown
 dateCreated: 2022-03-13T13:01:58.044Z
 ---
 
 ## 渔捞以及同步功能已更新6.0支持，重启鱼糕即可
+刺鱼的自动标记已完成功能暂时无法使用，请手动标记或同步笔记。
 
 ## 鱼糕已于2022/03/15更新1.2.0版本
 ### 包括国服 `6.0` 内容
